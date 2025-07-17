@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REZENDE</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="#inicio"><img src="fd6a07d0-240f-463b-9ebe-b5ae92cd0012.png" alt="Logo ZENDE" /></a>
+        </div>
+
+        <nav class="nav">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="https://www.instagram.com/ryanrzende/" target="_blank"
+                        rel="noopener noreferrer">Contatos</a></li>
+            </ul>
+            <div class="hamburger">
+                ☰
+            </div>
+        </nav>
+    </header>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+
+    <section id="sobre"
+        style="padding: 100px 20px; background-color: #01094b; color: #f5f5f5; text-align: center; font-family: 'Arial', sans-serif;">
+        <div style="max-width: 900px; margin: 0 auto;">
+            <h2
+                style="font-size: 36px; font-weight: bold; margin-bottom: 40px; letter-spacing: 2px; text-transform: uppercase;">
+                SOBRE A REZENNDE</h2>
+            <p style="font-size: 20px; line-height: 1.8; white-space: pre-line;">
+                A REZENNDE é atitude, não tendência.
+
+                Nascemos da inquietação de quem vive a cidade com intensidade.
+                Uma marca independente, urbana e consciente, feita para quem entende que vestir é também se posicionar.
+
+                Inspirada pelo underground, pelo contraste entre o bruto e o minimalista, criamos peças que falam —
+                mesmo em silêncio.
+
+                Cada coleção é pensada como expressão de identidade: visual forte, ideias claras.
+                Nada aqui é por acaso. Tudo comunica.
+
+                REZENDE não segue fórmulas. Testa limites. Ousamos. Criamos. Repetimos só o que faz sentido.
+            </p>
+        </div>
+    </section>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REZENDE</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="fd6a07d0-240f-463b-9ebe-b5ae92cd0012.png" alt="Logo ZENDE" /></a>
+        </div>
+
+        <nav class="nav">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="https://www.instagram.com/ryanrzende/" target="_blank"
+                        rel="noopener noreferrer">Contatos</a></li>
+            </ul>
+            <div class="hamburger">
+                ☰
+            </div>
+        </nav>
+    </header>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+
+    <section class="produtos" id="produtos">
+        <h2>Produtos</h2>
+        <div class="produtos-container">
+            <div class="produto">
+                <img src="3f7a94cc-0e88-4e1f-b8a0-e9e8f25e1d3b.png" alt="Produto 1">
+                <h3>PILOTO</h3>
+                <p>ZENNDE</p>
+            </div>
+
+            <div class="produto">
+                <img src="imagens/produto2.jpg" alt="Produto 2">
+                <h3>PRODUTO 2 EM BREVE...</h3>
+                <p>EM BREVE...</p>
+            </div>
+
+            <div class="produto">
+                <img src="imagens/produto2.jpg" alt="Produto 3">
+                <h3>PRODUTO 3 EM BREVE...</h3>
+                <p>EM BREVE...</p>
+            </div>
+
+            <!-- Pode adicionar mais produtos aqui -->
+        </div>
+    </section>
